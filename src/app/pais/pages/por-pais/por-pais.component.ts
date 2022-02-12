@@ -26,8 +26,13 @@ export class PorPaisComponent {
 
     }, (err) => {
       this.hayError = true;
-      this.paises = []
-    })
+      this.paises = [];
+    });
+  }
+
+  sugerencias(termino: string) {
+    this.hayError = false;
+
   }
 
 
